@@ -4,7 +4,7 @@ const hr=document.querySelector("#hr")
 setInterval(function(){
     const d = new Date();
     const h=d.getHours();
-    let k;
+    var k;
     if (h>12){
         k=h-12;
     }
