@@ -6,8 +6,10 @@ setInterval(function(){
     const h=d.getHours();
     let k;
     if (h>12){
-        k=h-12
+        k=h-12;
     }
+else{ k=h;
+};
     k=90+(k*30);
     // console.log(k);
     hr.style.transform="rotate("+k.toString()+"deg)";
